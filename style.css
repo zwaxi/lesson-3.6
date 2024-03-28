@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contenr {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 27, 236);
+    height: 1000px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .contenr {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(25, 230, 6);
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .card {
+        width: 300px;
+        height: 200px;
+        background-color: rgb(88, 158, 190);
+
+    }
+}
+
+/* Media query for screens with a width between 601 and 768 pixels */
+@media screen and (max-width: 920px) {
+    .contenr {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: yellow;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .card {
+        width: 250px;
+        height: 200px;
+        background-color: blue;
+
+    }
+}
+
+
+/* Media query for screens with a width between 769 and 1024 pixels */
+@media screen and (max-width: 769px) {
+    .contenr {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: red;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .card {
+        width: 200px;
+        height: 200px;
+        background-color: black;
+
+    }
+}
+
+/* Media query for screens with a width between 1025 and 1200 pixels */
+@media screen and (max-width: 410px) {
+    .contenr {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: red;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        margin-right: auto;
+        margin-left: auto;
+        gap: 10px;
+    }
+
+    .card {
+        width: 200px;
+        height: 200px;
+        background-color: black;
+
+    }
+}
+
+/* Media query for screens with a minimum width of 1201 pixels */
+@media screen and (max-width: 410px) {
+    .contenr {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: red;
+    }
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .card {
+        width: 200px;
+        height: 200px;
+        background-color: black;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+}
